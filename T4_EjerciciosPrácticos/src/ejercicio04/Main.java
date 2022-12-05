@@ -13,9 +13,9 @@ public class Main {
 		// preguntamos al usuario
 		
 		System.out.println("Introduzca el primer entero: ");
-		objeto.num1=sc.nextInt();
+		objeto.num1=sc.nextInt();		// lo guardamos en la variable global num1
 		System.out.println("Introduzca el segundo entero: ");
-		objeto.num2=sc.nextInt();
+		objeto.num2=sc.nextInt();		// lo guardamos en la variable global num2
 		
 		
 		// llamamos a las funciones 

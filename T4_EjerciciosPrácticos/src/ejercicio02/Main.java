@@ -13,15 +13,18 @@ public class Main {
 		
 		//preguntamos al usuario
 		System.out.println("Inrtoduce el radio de una esfera: ");
-		Esfera.radio=sc.nextDouble();
+		Esfera.radio=sc.nextDouble();		// lo guardamos en la variable global radio
 		
 		
 		if (Esfera.radio<=0) {
-			System.out.println("Introduce un valor positivo."); 
+			System.out.println("Introduce un valor positivo."); 		//llamamos a la funcion  si radio es mayor que 0, si es menor o = 0 salta el mensaje
 		}else  {
-			resultado=Esfera.Superficie();
+			
+			resultado=Esfera.Superficie();		
+			//mostramos el resultado de la superficie
 			System.out.println("La Superficie de la esfera es: "+resultado);
 			resultado=Esfera.Volumen();
+			//mostramos el resultado del volumen
 			System.out.println("El volumen de la esfera es: "+resultado);
 		}
 		
