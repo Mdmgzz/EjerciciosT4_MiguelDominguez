@@ -1,4 +1,4 @@
-package Ejercicio02;
+package ejercicio02;
 
 public class Esfera {
 	public static double radio;
